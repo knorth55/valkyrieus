@@ -1,0 +1,52 @@
+head:
+  - lowerNeckPitch: head-neck-p
+  - neckYaw: head-neck-r
+  - upperNeckPitch: head-neck-p2
+torso:
+  - torsoYaw: torso-waist-y
+  - torsoPitch: torso-waist-p
+  - torsoRoll: torso-waist-r
+larm:
+  - leftShoulderPitch: larm-shoulder-p
+  - leftShoulderRoll: larm-shoulder-r
+  - leftShoulderYaw: larm-shoulder-y
+  - leftElbowPitch: larm-elbow-p
+  - leftForearmYaw: larm-elbow-y
+  - leftWristRoll: larm-wrist-r
+  - leftWristPitch: larm-wrist-p
+rarm:
+  - rightShoulderPitch: rarm-shoulder-p
+  - rightShoulderRoll: rarm-shoulder-r
+  - rightShoulderYaw: rarm-shoulder-y
+  - rightElbowPitch: rarm-elbow-p
+  - rightForearmYaw: rarm-elbow-y
+  - rightWristRoll: rarm-wrist-r
+  - rightWristPitch: rarm-wrist-p
+lleg:
+  - leftHipYaw: lleg-crotch-y
+  - leftHipRoll: lleg-crotch-r
+  - leftHipPitch: lleg-crotch-p
+  - leftKneePitch: lleg-knee-p
+  - leftAnklePitch: lleg-ankle-p
+  - leftAnkleRoll: lleg-ankle-r
+rleg:
+  - rightHipYaw: rleg-crotch-y
+  - rightHipRoll: rleg-crotch-r
+  - rightHipPitch: rleg-crotch-p
+  - rightKneePitch: rleg-knee-p
+  - rightAnklePitch: rleg-ankle-p
+  - rightAnkleRoll: rleg-ankle-r
+
+angle-vector:
+  reset-pose : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+head-end-coords:
+  parent : upperNeckPitchLink 
+larm-end-coords:
+  parent : leftPalm 
+rarm-end-coords:
+  parent : rightPalm 
+lleg-end-coords:
+  parent: leftFoot 
+rleg-end-coords:
+  parent: rightFoot

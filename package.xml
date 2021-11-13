@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>valkyrieus</name>
+  <version>0.0.0</version>
+  <description>The Euslisp valkyrie package</description>
+
+  <maintainer email="shingogo@hotmail.co.jp">Shingo Kitagawa</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roseus</build_depend>
+  <build_depend>val_desc</build_depend>
+  <build_depend>val_viz</build_depend>
+
+  <export>
+  </export>
+</package>
